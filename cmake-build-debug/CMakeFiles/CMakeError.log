@@ -1,0 +1,35 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/alikh/CLionProjects/inlämning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_6d690\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_6d690.dir\build.make /nologo -L                  CMakeFiles\cmTC_6d690.dir\build
+Building C object CMakeFiles/cmTC_6d690.dir/CMakeCCompilerABI.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_6d690.dir\CMakeCCompilerABI.c.obj.d --working-dir=C:\Users\alikh\CLionProjects\inlõmning\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\alikh\AppData\Local\Temp\nm48DA.tmp
+Linking C executable cmTC_6d690.exe
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6d690.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6d690.dir\objects1.rsp @C:\Users\alikh\AppData\Local\Temp\nm4967.tmp
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6d690.dir\objects1.rsp /out:cmTC_6d690.exe /implib:cmTC_6d690.lib /pdb:C:\Users\alikh\CLionProjects\inl?mning\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_6d690.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_6d690.dir/intermediate.manifest CMakeFiles\cmTC_6d690.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: error writing to program database 'C:\Users\alikh\CLionProjects\inl?mning\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_6d690.pdb'; check for insufficient disk space, invalid path, or insufficient privilege
+NMAKE : fatal error U1077: '"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe"' : return code '0xffffffff'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/alikh/CLionProjects/inlämning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_cbdaa\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_cbdaa.dir\build.make /nologo -L                  CMakeFiles\cmTC_cbdaa.dir\build
+Building C object CMakeFiles/cmTC_cbdaa.dir/testCCompiler.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_cbdaa.dir\testCCompiler.c.obj.d --working-dir=C:\Users\alikh\CLionProjects\inlõmning\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\alikh\AppData\Local\Temp\nm4B5A.tmp
+Linking C executable cmTC_cbdaa.exe
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cbdaa.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_cbdaa.dir\objects1.rsp @C:\Users\alikh\AppData\Local\Temp\nm4BD8.tmp
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_cbdaa.dir\objects1.rsp /out:cmTC_cbdaa.exe /implib:cmTC_cbdaa.lib /pdb:C:\Users\alikh\CLionProjects\inl?mning\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_cbdaa.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_cbdaa.dir/intermediate.manifest CMakeFiles\cmTC_cbdaa.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: error writing to program database 'C:\Users\alikh\CLionProjects\inl?mning\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_cbdaa.pdb'; check for insufficient disk space, invalid path, or insufficient privilege
+NMAKE : fatal error U1077: '"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe"' : return code '0xffffffff'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
